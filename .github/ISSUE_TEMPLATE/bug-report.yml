@@ -1,0 +1,59 @@
+name: Installer, update, or download problem
+description: Report a problem obtaining, installing, or updating an official StatePort release.
+title: "[Distribution] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form only for installer, update, or download problems. For a suspected vulnerability, do **not** file a public issue; follow [SECURITY.md](https://github.com/StatePort-Dev/stateport-releases/blob/main/SECURITY.md). Remove credentials, personal data, and sensitive paths from logs.
+  - type: input
+    id: version
+    attributes:
+      label: StatePort version
+      description: Include the version shown in the installer, app, or release page.
+      placeholder: 1.2.3-beta.1
+    validations:
+      required: true
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      options:
+        - macOS arm64
+        - macOS x64
+        - Windows x64
+        - Linux AppImage
+        - Linux deb
+    validations:
+      required: true
+  - type: dropdown
+    id: problem
+    attributes:
+      label: Problem area
+      options:
+        - Download
+        - Installation or launch
+        - Update
+        - Checksum or signature verification
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Include the official release URL and the steps that led to the problem.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected result
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual result
+      description: You may include sanitized error text or logs. Do not include secrets or private data.
+    validations:
+      required: true

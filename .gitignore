@@ -1,0 +1,17 @@
+# Local OS and editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# Release assets belong in GitHub Releases, not Git history
+*.dmg
+*.exe
+*.AppImage
+*.deb
+SHA256SUMS
+SHA256SUMS.*
+*.sig
+*.asc
