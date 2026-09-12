@@ -32,7 +32,7 @@ body:
       label: Problem area
       options:
         - Download
-        - Installation or launch
+        - Installation
         - Update
         - Checksum or signature verification
     validations:
