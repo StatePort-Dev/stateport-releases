@@ -6,7 +6,7 @@ This is the official public binary distribution channel for StatePort, maintaine
 
 StatePort saves a supported browser and API bug setup as a reviewed **State Card**. Reopen that Card against your running local app after a code change, then compare the runs without rebuilding the setup.
 
-- [Download the current Public Beta](https://stateport.dev/download/?utm_source=github&utm_campaign=releases_readme) — check the exact version, operating system, architecture, and installer before downloading. The download page is the source of truth for availability.
+- [Download the current prerelease](https://stateport.dev/download/?utm_source=github&utm_campaign=releases_readme) — check the exact version, operating system, architecture, and installer before downloading. The download page is the source of truth for availability.
 - [Capture your first State Card](https://docs.stateport.dev/getting-started/first-state-card/) — capture, review, and save a reproduction in the managed browser.
 - [Reproduce a saved Card](https://docs.stateport.dev/getting-started/open-a-state/) — work against current local code. Capture is free; reproduction and comparison need Developer access, with a 14-day trial that requires no payment card.
 - [Connect a coding agent](https://docs.stateport.dev/agents/plugins/) — the separate agent plugins are a development preview and require a local Desktop MCP connection.
