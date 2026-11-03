@@ -1,0 +1,69 @@
+{
+  "schemaVersion": "stateport-agent-distribution/1",
+  "version": "1.0.0-rc.4",
+  "sourceCommit": "6aa1db39a7a5e9da12d9e14e353f86fa58392c23",
+  "bootstrapSourceCommit": "4bff247da12af1162b4c61f8b5ff305e01c667d9",
+  "bootstrapSourceRepository": "https://github.com/StatePort-Dev/stateport-agent-skills",
+  "tag": "v1.0.0-rc.4-agent.1",
+  "publisher": "StatePort-Dev",
+  "channel": "rc",
+  "sequence": 1,
+  "keyId": "stateport-agent-release-2026-11-03",
+  "publicKeySha256": "fc11ffbc7b773ca9cc161b6379449c294a8a01ee2c861ea2f14f0047caed05fa",
+  "runtimeMainSha256": "6cf42518e1a7eccb39d27661b6e005c42296c6cec39d8b98fece2bee4c011687",
+  "bootstrap": {
+    "filename": "stateport-1.0.0-rc.4.tgz",
+    "bytes": 20460,
+    "sha256": "a76ec667cafa40fbacbc812c568284bc9ed5ee87aed01ec25284efa3483fdf79"
+  },
+  "runtimeAssets": [
+    {
+      "filename": "stateport-agent-1.0.0-rc.4-linux-x64-system.tar.gz",
+      "bytes": 6939094,
+      "sha256": "a3c6c3ab40a51e9a2a649b9df7633ce9c1cfc6a83ad38072e61187315e85016b",
+      "manifestSha256": "a57b24e507c10e094796e5b861570e458361a60ba39185372d7d902ca1cfdaf2"
+    },
+    {
+      "filename": "stateport-agent-1.0.0-rc.4-linux-x64-pinned.tar.gz",
+      "bytes": 190012329,
+      "sha256": "acc41408e9831ff017199b38f60a60f0cab8ae1dc54b94a97c018a270957b565",
+      "manifestSha256": "259607b1fcbcebbbf91a3a572f209492982f89bbe8bb60c359e99cd3c59bc9e4"
+    },
+    {
+      "filename": "stateport-agent-1.0.0-rc.4-windows-x64-system.tar.gz",
+      "bytes": 7145908,
+      "sha256": "454bd8109c052366e7b48c52dc92f2a354a9bc2f1f57251b40b3e4f5a2d17798",
+      "manifestSha256": "1e9914edc81c3a68ff8015b0def60dcc16fa95a1a728376e39d8f5e49ae99683"
+    },
+    {
+      "filename": "stateport-agent-1.0.0-rc.4-windows-x64-pinned.tar.gz",
+      "bytes": 216545891,
+      "sha256": "4f402f7a0792604eae7c80a22d37f75fb9af02d765a7e6dab6175cfb55407d04",
+      "manifestSha256": "ce301cb3ea0fc66bf55ea90bcb887abea9c29871446c4d208cbb3bbdaf7caf04"
+    },
+    {
+      "filename": "stateport-agent-1.0.0-rc.4-macos-arm64-system.tar.gz",
+      "bytes": 6935149,
+      "sha256": "c8b9c8f05045fc4af9526f5e64d8710dbd52da621ad1166697e4631a932e6d86",
+      "manifestSha256": "d3f23ca1194939943431b1e7ddbb936188a36dc625285f23aba60e9048e76012"
+    },
+    {
+      "filename": "stateport-agent-1.0.0-rc.4-macos-arm64-pinned.tar.gz",
+      "bytes": 189561034,
+      "sha256": "3385f435dbd0b376ba67f3f3b6a0a4df4cb6f7a7c2b4b4fba602432aeade1b83",
+      "manifestSha256": "67862cf533368e9b4ad85ade88602e2a3838e80abf90531b6aebc0e0d1b7c34d"
+    }
+  ],
+  "qualification": {
+    "status": "release_candidate",
+    "nativeVaultCaptureConcurrencyAndRecovery": [
+      "linux-x64",
+      "win32-x64",
+      "darwin-arm64"
+    ],
+    "actualFullCodexFixAndColdReuse": [
+      "linux-x64"
+    ],
+    "remaining": "Full Windows/macOS model workflows, human access/recovery and ordinary-user native trust/protected-data matrix remain unqualified. Do not disable OS protection. Desktop downloads remain separate."
+  }
+}
