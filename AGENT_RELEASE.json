@@ -1,80 +1,79 @@
 {
   "schemaVersion": "stateport-agent-distribution/1",
-  "version": "1.0.0-rc.6",
-  "sourceCommit": "0e6210d56295f641fceffc6900fb6a096cf7374f",
-  "bootstrapVersion": "1.0.0-rc.9",
-  "bootstrapSourceCommit": "37296cd57d18063da8535d806a86e19a58301577",
+  "version": "1.0.0",
+  "sourceCommit": "3a89c964416d9d0cb36565e7672f8b75ae53a77b",
+  "bootstrapVersion": "1.0.0",
+  "bootstrapSourceCommit": "62d494e7ddb8335981388cc949bdb7dce8431afc",
   "bootstrapSourceRepository": "https://github.com/StatePort-Dev/stateport-agent-skills",
-  "tag": "v1.0.0-rc.6-agent.1",
+  "tag": "v1.0.0-agent.1",
   "publisher": "StatePort-Dev",
-  "channel": "rc",
-  "sequence": 3,
+  "channel": "stable",
+  "sequence": 1,
   "keyId": "stateport-agent-release-2026-11-03",
   "publicKeySha256": "fc11ffbc7b773ca9cc161b6379449c294a8a01ee2c861ea2f14f0047caed05fa",
-  "runtimeMainSha256": "e7cb4e8e801d12c12a5be13291d2fb8a5fa7a694e7259c16a11b98934306eb4b",
+  "runtimeMainSha256": "62f059572ceec4ee21b286fa8de02ce4f932a8ad5aa321df66d7385fbd39a700",
   "bootstrap": {
-    "filename": "stateport-1.0.0-rc.9.tgz",
-    "bytes": 40521,
-    "sha256": "b08822c00bf1b2df7d7f9e15aa16bb900d75558808351525074f7c8823b62422",
+    "filename": "stateport-1.0.0.tgz",
+    "bytes": 57963,
+    "sha256": "f72fa6b15b9c499bbc8c0753133ba4661ae785ca22089108566f218527290793",
     "files": 20,
-    "version": "1.0.0-rc.9"
+    "version": "1.0.0"
   },
   "runtimeAssets": [
     {
-      "filename": "stateport-agent-1.0.0-rc.6-linux-x64-system.tar.gz",
-      "bytes": 6574048,
-      "sha256": "d8dddc185f1fc6f947b9acc0b12c748d29ff710cbe00c6d22cf6f46b1de53b32",
-      "manifestSha256": "b3c96b49e51d00d02c990b3dc0579b31e1c3c83643276a170607457f92d9470a"
+      "filename": "stateport-agent-1.0.0-linux-x64-system.tar.gz",
+      "bytes": 6602982,
+      "sha256": "4eb8b032477f1b506332df5a3c4a1d4e3f531aad63b5238c1ba77cb32b900cc0",
+      "manifestSha256": "891df187c47cb8c643c4711281d1c2e06c2bc36d145ef396f06867737c74d267"
     },
     {
-      "filename": "stateport-agent-1.0.0-rc.6-linux-x64-pinned.tar.gz",
-      "bytes": 189650225,
-      "sha256": "33901a175db278610ac3bd63872e239da3d08b3f431561ea3893868d0a4cd8d6",
-      "manifestSha256": "8e143ca1bd4cda551461b3a32afd681bdd7765bd6b47865f3dac781ea9627365"
+      "filename": "stateport-agent-1.0.0-linux-x64-pinned.tar.gz",
+      "bytes": 189680451,
+      "sha256": "317fd34d8defbf53e1f6c7ffbb4f7b9e95dae96ba73188ddeba167472a20ba61",
+      "manifestSha256": "923ff11700111bc547353544afb7c140ea0b5fbdda2904a78705316caa93d194"
     },
     {
-      "filename": "stateport-agent-1.0.0-rc.6-windows-x64-system.tar.gz",
-      "bytes": 6825263,
-      "sha256": "19be71dd45400e9f868aeb2c4dc1a1a0462bcef79f2693d0a5d46bf69842e505",
-      "manifestSha256": "ebf6d51e89600d3dc94d1b183902a39fa0c3f246dbebbdbe2197100409f29f21"
+      "filename": "stateport-agent-1.0.0-windows-x64-system.tar.gz",
+      "bytes": 6853058,
+      "sha256": "f4d37cd00361448d747639daf21ecccf39befca5f7fc1626853907ad5639ecc1",
+      "manifestSha256": "a16110c7641b3da5d76c60e754b24a7cca4de264735b650eb16eb102035f7e1c"
     },
     {
-      "filename": "stateport-agent-1.0.0-rc.6-windows-x64-pinned.tar.gz",
-      "bytes": 216223064,
-      "sha256": "af30c2449a5192258dc09d6331d145ed3b578cf935b93185fe4383ab6d38fa11",
-      "manifestSha256": "5b3c190db3f9d78aa744b8a9b3f4c92617c589dcb35bd2b6e80e3ac3778c2bfc"
+      "filename": "stateport-agent-1.0.0-windows-x64-pinned.tar.gz",
+      "bytes": 216252519,
+      "sha256": "aada6067efa17b36b7b0a40107cee652bceeada37d4103ea32792ed5d9122c90",
+      "manifestSha256": "f904a724be07acd5f10418f2c4a9d15f08eb3950fb310c132a0d9ac2efd2c1fe"
     },
     {
-      "filename": "stateport-agent-1.0.0-rc.6-macos-arm64-system.tar.gz",
-      "bytes": 6560668,
-      "sha256": "83be44d27002b7e8c8644ea49babe079a0c969148c38e4bda6857bfe325ad000",
-      "manifestSha256": "12adc892806d6388642b7057aed32c5cc4c3cf486a3151150d4197bc2462077e"
+      "filename": "stateport-agent-1.0.0-macos-arm64-system.tar.gz",
+      "bytes": 6590781,
+      "sha256": "fb9c295d672ca39ddf0fc5a4d3af862cbe1f53fc30e7fc7386303796acd63cda",
+      "manifestSha256": "637a60722528abb1ede4999af5a602ca2009a796e9bbda2dc68a15b532faf699"
     },
     {
-      "filename": "stateport-agent-1.0.0-rc.6-macos-arm64-pinned.tar.gz",
-      "bytes": 189185412,
-      "sha256": "70b3b5e01254ae6fff315b3237c9665d0d7cddf7650732b6035287b2cd5d44f6",
-      "manifestSha256": "681bca3880362020ea2f20a0fa99ebdb70d29c2ab2b8e6ac06a66f99c9064c2a"
+      "filename": "stateport-agent-1.0.0-macos-arm64-pinned.tar.gz",
+      "bytes": 189214845,
+      "sha256": "5888e5b7843cfe674eba81b1865bc63c8caf6b45edff6578d8bdad89f2acffb8",
+      "manifestSha256": "8e8bf95077d65e528a9d5280f4196898aa141fb45d72a4c8884f190f64be95fd"
     }
   ],
   "qualification": {
-    "status": "release_candidate",
-    "nativeCiRun": 42033131075,
+    "status": "stable_distribution",
+    "nativeCiRun": 42082984323,
     "nativeVaultCaptureSourceProgressAndRecovery": [
       "linux-x64",
       "win32-x64",
       "darwin-arm64"
     ],
     "firstUse": {
-      "baselineSource": "12ccdb89191a4e11321ac463659ff35954e8b908",
-      "compiledMainIdentical": true,
-      "ubuntuCodexMcpAndForeground": "passed",
-      "windowsChat": "owner_confirmed_pass",
+      "currentCompiledNativeControls": "passed_three_OS",
+      "currentExactModelRun": "not_claimed",
+      "priorUbuntuCodexAndOwnerWindowsEvidence": "retained_version_bound",
       "macosManualModel": "not_run_owner_nonblocking"
     },
     "sourceQuality": {
-      "runtimeSource": "0e6210d56295f641fceffc6900fb6a096cf7374f",
-      "installerPrivateSource": "d9f1816aae08fddb63e7e2e9573d8fb51f018e4e",
+      "runtimeSource": "3a89c964416d9d0cb36565e7672f8b75ae53a77b",
+      "installerPrivateSource": "3a89c964416d9d0cb36565e7672f8b75ae53a77b",
       "status": "passed"
     },
     "remaining": "Broader provider/model, human email/payment/recovery and ordinary-user native trust acceptance remain separately qualified; Desktop policy is unchanged."
