@@ -2,8 +2,8 @@
   "schemaVersion": "stateport-agent-distribution/1",
   "version": "1.0.1",
   "sourceCommit": "a5728a02cf27c592c2c583ebb9646731edb1d62b",
-  "bootstrapVersion": "1.0.1",
-  "bootstrapSourceCommit": "db017721d86e92b415ecd8fba3f4a1ed43990cdf",
+  "bootstrapVersion": "1.0.2",
+  "bootstrapSourceCommit": "cbef465816a2ee235d2d231bd393e64d28f88f17",
   "bootstrapSourceRepository": "https://github.com/StatePort-Dev/stateport-agent-skills",
   "tag": "v1.0.1-agent.1",
   "publisher": "StatePort-Dev",
@@ -13,11 +13,19 @@
   "publicKeySha256": "fc11ffbc7b773ca9cc161b6379449c294a8a01ee2c861ea2f14f0047caed05fa",
   "runtimeMainSha256": "eb6c5d6839730e7006ffe4b717586577cd18c5e1067f04c91bb8d5dba35d8331",
   "bootstrap": {
-    "filename": "stateport-1.0.1.tgz",
-    "bytes": 60310,
-    "sha256": "2703d713e3d46f6f294e674316bc356da384956cb8ad6b96f45259c7eeb277de",
+    "filename": "stateport-1.0.2.tgz",
+    "sha256": "eeaea5043ae9ab9239f5c4cc3c56a1362e549b10da7038b22561f7f47ab210b4",
+    "bytes": 60852,
     "files": 21,
-    "version": "1.0.1"
+    "changedFrom101": [
+      "package/package.json",
+      "package/README.md",
+      "package/lib/updates.mjs"
+    ],
+    "runtimeBaseline": "1.0.1",
+    "privateEngineSource": false,
+    "version": "1.0.2",
+    "publication": "npm OIDC pending; runtime artifacts unchanged"
   },
   "runtimeAssets": [
     {
@@ -80,5 +88,6 @@
   },
   "skillsVersion": "0.1.0-beta.84",
   "skillsSourceCommit": "dc6a28f603ef7788af0e5352d0521afe4aa02fdf",
-  "skillsDigest": "062a8d6bfdb1b47cbedc29d68f022eae297288cbf5e2cab6edcfcad4a087b52d"
+  "skillsDigest": "062a8d6bfdb1b47cbedc29d68f022eae297288cbf5e2cab6edcfcad4a087b52d",
+  "bootstrapDistributionTag": "v1.0.2-installer.1"
 }
