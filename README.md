@@ -16,19 +16,24 @@ optional download. Desktop is optional. Installation does not start a trial.
 Installer, engine and skills have independent versions. A new install resolves
 the signed stable engine; existing pins and update consent are preserved.
 The default update policy is Notify. See the
-[installation guide](https://github.com/StatePort-Dev/stateport-agent-skills/blob/main/AGENT_INSTALL.md)
+[installation guide](https://docs.stateport.dev/getting-started/install/)
 and [npm package](https://www.npmjs.com/package/stateport).
+
+Current versions: transparent installer **1.0.2**, signed runtime **1.0.1**, skills
+**beta.84**. Installer 1.0.2 fixes the reviewed explicit upgrade from runtime 1.0.0.
+Package publication and native build checks do not establish every coding-host,
+model or human workflow. The website's Desktop Download page is temporarily
+retired and redirects to its homepage; use the Node installation guide above.
 
 ## Start with a State Card
 
 StatePort saves a supported browser and API bug setup as a reviewed **State Card**. Reopen that Card against your running local app after a code change, then compare the runs without rebuilding the setup.
 
-- [Download the current prerelease](https://stateport.dev/download/?utm_source=github&utm_campaign=releases_readme) — check the exact version, operating system, architecture, and installer before downloading. The download page is the source of truth for availability.
 - [Capture your first State Card](https://docs.stateport.dev/getting-started/first-state-card/) — capture, review, and save a reproduction in the managed browser.
 - [Reproduce a saved Card](https://docs.stateport.dev/getting-started/open-a-state/) — work against current local code. Capture is free; reproduction and comparison need Developer access, with a 14-day trial that requires no payment card.
-- [Connect a coding agent](https://github.com/StatePort-Dev/stateport-agent-skills/blob/main/AGENT_INSTALL.md) — use the npm installer, or the optional Desktop setup. Account/model access and host trust remain separate from installation.
+- [Connect a coding agent](https://docs.stateport.dev/getting-started/install/) — use the npm installer, or the optional Desktop setup. Account/model access and host trust remain separate from installation.
 
-Installers and their integrity files are published as this repository's [GitHub Releases](https://github.com/StatePort-Dev/stateport-releases/releases). The `main` branch contains distribution documentation and issue/PR templates; binaries are release assets, not files committed to Git.
+Signed runtime archives and their integrity files are published as this repository's [GitHub Releases](https://github.com/StatePort-Dev/stateport-releases/releases). The `main` branch contains distribution documentation and issue/PR templates; binaries are release assets, not files committed to Git.
 
 The StatePort application source code is maintained separately. This repository's public visibility and its documentation reuse permission do **not** make the application open source or grant a license to its binaries. See [DISTRIBUTION.md](DISTRIBUTION.md) for the distinction and [RELEASES.md](RELEASES.md) for release names and verification expectations.
 
