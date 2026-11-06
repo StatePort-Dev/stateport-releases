@@ -25,7 +25,9 @@
     "runtimeBaseline": "1.0.1",
     "privateEngineSource": false,
     "version": "1.0.2",
-    "publication": "npm OIDC pending; runtime artifacts unchanged"
+    "publication": "npm OIDC published and registry verified",
+    "publishedAt": "2026-11-06T09:13:49.297Z",
+    "oidcRun": 42193083626
   },
   "runtimeAssets": [
     {
