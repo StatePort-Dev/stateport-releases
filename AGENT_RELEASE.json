@@ -1,82 +1,84 @@
 {
   "schemaVersion": "stateport-agent-distribution/1",
-  "version": "1.0.2",
-  "sourceCommit": "c5aea3ba342f77243cfde98f9d8ef8ca0d1db8af",
-  "bootstrapVersion": "1.0.3",
-  "bootstrapSourceCommit": "cb568e31303945468921eae7cb56d552b3606d95",
+  "version": "1.1.0",
+  "sourceCommit": "c23dd31b2a6006a828533e2757ad25fbb23fb12a",
+  "bootstrapVersion": "1.1.0",
+  "bootstrapSourceCommit": "21f52084c80dbef4b0061c622e6fc1b2db51aace",
   "bootstrapSourceRepository": "https://github.com/StatePort-Dev/stateport-agent-skills",
-  "tag": "v1.0.2-agent.1",
+  "tag": "v1.1.0-agent.1",
   "publisher": "StatePort-Dev",
   "channel": "stable",
-  "sequence": 3,
+  "sequence": 4,
   "keyId": "stateport-agent-release-2026-11-03",
   "publicKeySha256": "fc11ffbc7b773ca9cc161b6379449c294a8a01ee2c861ea2f14f0047caed05fa",
-  "runtimeMainSha256": "121de314c8f459fc161e7f7a00c57310cc98c23bbef52862fedc115330267d30",
+  "runtimeMainSha256": "33c84077d97d3c11f8b61f2672bb61aa6fd63f8cbe6975db120f50148bfd0893",
   "bootstrap": {
-    "filename": "stateport-1.0.3.tgz",
-    "bytes": 61227,
-    "sha256": "f8a4a634c41cc44f97009cd39cd12699e959493206ee1d05fe7f95b984cb929a",
-    "files": 21,
-    "version": "1.0.3"
+    "filename": "stateport-1.1.0.tgz",
+    "bytes": 62495,
+    "sha256": "2326fac8a43b85addb4a79b41c6de2d96fc8347ad0c1a829b9487747dd139b82",
+    "files": 22,
+    "version": "1.1.0"
   },
   "runtimeAssets": [
     {
-      "filename": "stateport-agent-1.0.2-linux-x64-system.tar.gz",
-      "bytes": 6608030,
-      "sha256": "c3a6dd281f0b41df2b88cac5f2a29a3e9fbe4fccfb4fc10cd9d2c602d8e4298d",
-      "manifestSha256": "3dc7476bac64455ff979688843f3bf0e208c6960cad23f406b093a5b3e2e2840"
+      "filename": "stateport-agent-1.1.0-linux-x64-system.tar.gz",
+      "bytes": 6617989,
+      "sha256": "7543f4b0cbfa6657eec02f89ba94fa0d053fac71043034a0c37a98c9e4cd13cb",
+      "manifestSha256": "f0fae9de5dd7dbc89d5cd03fc1062e13561ce72d6a21a4b08af804facef98b24"
     },
     {
-      "filename": "stateport-agent-1.0.2-linux-x64-pinned.tar.gz",
-      "bytes": 189691691,
-      "sha256": "a3884cc95f013a3ea176f39260b17495199a9a817932506479ae9720c4bc2912",
-      "manifestSha256": "8eb4e81ab7910f302eaf5e57c512d1e9891863e0f30cb22d094ade5fd2882f36"
+      "filename": "stateport-agent-1.1.0-linux-x64-pinned.tar.gz",
+      "bytes": 189703128,
+      "sha256": "f44a7b949eaa2f2026f3178c80947dca99c5070e3d8ffdf7c4890d9a4badfe90",
+      "manifestSha256": "be3d9663d09599f81c55eda2842f13e352bdbc4d08997f3bb179c1936f54816d"
     },
     {
-      "filename": "stateport-agent-1.0.2-windows-x64-system.tar.gz",
-      "bytes": 6853420,
-      "sha256": "0ee7123c4a84ea68c2bc4434b45398cb1f90b23b2ad9d2ddac0babbddb5dc48d",
-      "manifestSha256": "ab449d5b3d419a3925c29eb41ae06ff14e7f750bcd69904f7f57ecab64a5fd8a"
+      "filename": "stateport-agent-1.1.0-windows-x64-system.tar.gz",
+      "bytes": 6870486,
+      "sha256": "4df011b548dbdda1962dde57de626bd89b7e3b53285b6c4f19eb1879a91361b6",
+      "manifestSha256": "1d94abc309d10320b1b521513a339a30127d020213bafdc0f73370004d28eeef"
     },
     {
-      "filename": "stateport-agent-1.0.2-windows-x64-pinned.tar.gz",
-      "bytes": 216253784,
-      "sha256": "ac388d77cc281a95d635cf69599a91f282c41736e72c69769d43e474a911e50a",
-      "manifestSha256": "eeefab5502fc9e82c62101d76d170018803cc12e686afb48e9f114d75fff288f"
+      "filename": "stateport-agent-1.1.0-windows-x64-pinned.tar.gz",
+      "bytes": 216265673,
+      "sha256": "5720889baf84bcf203f44513eee2553ca80a6585165e99e093924b5bcd8359c5",
+      "manifestSha256": "995c3388ec76b7cb90c584d7680b3cdfad43a3de7a7b9a80ce8bd99b7d405b1a"
     },
     {
-      "filename": "stateport-agent-1.0.2-macos-arm64-system.tar.gz",
-      "bytes": 6596651,
-      "sha256": "d710e043cd3d81a4c052c0589c218f0774587358472a3bf3e8586a91037336b8",
-      "manifestSha256": "6e92b3da661ed6221855c0fa861376f841715c94e20f099001256ef068c8fdea"
+      "filename": "stateport-agent-1.1.0-macos-arm64-system.tar.gz",
+      "bytes": 6604919,
+      "sha256": "0f00697076e214d8d8a885dd77a761eec71f4bd7e07d2be558c205c1f2f4f53e",
+      "manifestSha256": "9aa9011117035a5f96097adae846f70b771fc1244dca011d44323796fdaea281"
     },
     {
-      "filename": "stateport-agent-1.0.2-macos-arm64-pinned.tar.gz",
-      "bytes": 189218964,
-      "sha256": "c575607923d7ed12f20a3c72246c7fa37404337e0120d188c4012d25da182834",
-      "manifestSha256": "414a90dce464dff179359d7161c830570e243141224cd8e35b94b43815d78bcd"
+      "filename": "stateport-agent-1.1.0-macos-arm64-pinned.tar.gz",
+      "bytes": 189228371,
+      "sha256": "40c11ff035abcaad9873a77b501fc0b11c56418fca9453ed9d673f28a5009074",
+      "manifestSha256": "25ade0ae594486eaf71e7ba0c3062c2c7811670b0e7867cc55ec7356eab7fc51"
     }
   ],
   "qualification": {
     "status": "stable_distribution",
-    "nativeCiRun": 42237049390,
-    "nativeVaultCaptureSourceProgressAndRecovery": [
+    "functionalQualification": "local_Ubuntu_only",
+    "nativeCiRun": 42864957321,
+    "nativeBuildOnly": [
       "linux-x64",
       "win32-x64",
       "darwin-arm64"
     ],
-    "automaticClaudeIdeAndMultiAgentSetup": "passed_three_OS_synthetic_host_presence_real_MCP_launch",
+    "remoteFunctionalChecks": 0,
+    "automaticClaudeIdeAndMultiAgentSetup": "local_synthetic_host_presence_real_MCP_launch",
     "firstUse": {
-      "currentCompiledNativeControls": "passed_three_OS",
+      "currentCompiledNativeControls": "local_Linux_only",
       "currentExactModelRun": "not_claimed",
       "priorUbuntuCodexAndOwnerWindowsEvidence": "retained_version_bound",
       "macosManualModel": "not_run_owner_nonblocking"
     },
     "sourceQuality": {
-      "runtimeSource": "c5aea3ba342f77243cfde98f9d8ef8ca0d1db8af",
-      "installerPrivateSource": "c5aea3ba342f77243cfde98f9d8ef8ca0d1db8af",
+      "runtimeSource": "c23dd31b2a6006a828533e2757ad25fbb23fb12a",
+      "installerPrivateSource": "c23dd31b2a6006a828533e2757ad25fbb23fb12a",
       "status": "passed"
     },
-    "remaining": "Broader provider/model, human access and ordinary-user native trust acceptance remain separately qualified."
+    "remaining": "New Windows/macOS installed-host/model and broader human/native-trust acceptance are not claimed."
   }
 }

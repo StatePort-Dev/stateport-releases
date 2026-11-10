@@ -20,9 +20,13 @@ The default update policy is Notify. See the
 [installation guide](https://docs.stateport.dev/getting-started/install/)
 and [npm package](https://www.npmjs.com/package/stateport).
 
-Current versions: transparent installer **1.0.3**, signed runtime **1.0.2**, skills
+Current versions: transparent installer **1.1.0**, signed runtime **1.1.0**, skills
 **beta.84**. Claude Code IDE extensions are detected without a standalone CLI.
-Reviewed explicit upgrades from RC6 and runtime 1.0.0 preserve saved Cards.
+Versioned data compatibility permits recognized older installs to preserve Cards.
+Known agent connections migrate automatically with private scoped records; Claude
+standalone setup needs no third-party marketplace and preserves corporate policy.
+Functional checks for this release ran locally on Ubuntu; native archives were
+built on three OSes without remote functional qualification.
 Protected per-agent conflicts remain visible while setup continues for others.
 Package publication and native build checks do not establish every coding-host,
 model or human workflow.
