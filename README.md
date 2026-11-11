@@ -20,8 +20,8 @@ The default update policy is Notify. See the
 [installation guide](https://docs.stateport.dev/getting-started/install/)
 and [npm package](https://www.npmjs.com/package/stateport).
 
-Current versions: transparent installer **1.1.0**, signed runtime **1.1.0**, skills
-**beta.84**. Claude Code IDE extensions are detected without a standalone CLI.
+Current versions: transparent installer **1.1.1**, signed runtime **1.1.1**, skills
+**1.0.0 stable**. Claude Code IDE extensions are detected without a standalone CLI.
 Versioned data compatibility permits recognized older installs to preserve Cards.
 Known agent connections migrate automatically with private scoped records; Claude
 standalone setup needs no third-party marketplace and preserves corporate policy.
